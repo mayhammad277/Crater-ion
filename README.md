@@ -12,4 +12,3 @@
 crater-ion cleanly separates training evaluation from real-world execution. The system features a hard safety layer utilizing a **Control Barrier Function (CBF)**. By penalizing the control agent for CBF interventions rather than just catastrophic failures, the AI voluntarily learns to operate strictly within safe bounds, ensuring maximum mission reliability and zero-compromise safety.
 
 🌐 **[Read the full crater-ion pitch here](https://[your-username].github.io/crater-ion/)** 
-*(Note: replace the link above with your actual GitHub Pages URL once live)*

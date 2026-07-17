@@ -5,7 +5,7 @@
 
 * **Perception Agent:** High-confidence crater mapping and false-detection minimization.
 * **Hazard Scoring Agent:** Real-time, low-latency hazard ranking.
-* **Control & Thrust Agent:** Smooth trajectory management and touchdown optimization.
+* **Control & Thrust Agent:** Smooth approach and landing trajectory management and touchdown optimization.
 * **Sensor Management Agent:** Rapid uncertainty reduction with highly efficient energy usage.
 
 ### Intrinsic Safety by Design

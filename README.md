@@ -1,5 +1,5 @@
 # crater-ion (C-ION)
-**Safe, Autonomous Precision Landing via Multi-Agent AI**
+**Safe, Autonomous Precision Landing  and navigation via Multi-Agent AI**
 
 **crater-ion** is a next-generation autonomous landing framework powered by a Multi-Agent Reinforcement Learning (MARL) architecture. Designed to solve the complex, competing priorities of extraterrestrial and precision landing, our system replaces easily overwhelmed monolithic AIs with a coordinated team of four specialized agents:
 

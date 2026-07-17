@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crater-ion | Next-Gen Autonomous Landing</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background: #0f172a;
+            color: #fff;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            letter-spacing: -1px;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #94a3b8;
+            max-width: 600px;
+            margin: 1rem auto 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: -2rem auto 3rem;
+            background: #fff;
+            padding: 3rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+        }
+        h2 { 
+            color: #0f172a; 
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+        }
+        ul {
+            padding-left: 1.5rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        .highlight {
+            background-color: #eff6ff;
+            border-left: 4px solid #3b82f6;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            border-radius: 0 4px 4px 0;
+        }
+        .diagram {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 2rem 0;
+            border: 1px solid #e2e8f0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>crater-ion</h1>
+        <p>Safe, Autonomous Precision Landing via Multi-Agent AI.</p>
+    </header>
+    
+    <div class="container">
+        <h2>The Problem</h2>
+        <p>Traditional autonomous landing systems struggle to balance complex, competing priorities. Managing fuel efficiency, scanning for unpredictable surface hazards, and executing split-second thrust adjustments simultaneously often leads to overwhelmed monolithic systems, resulting in unsafe mission failures or wasted resources.</p>
+        
+        <h2>The crater-ion Solution</h2>
+        <p>We approach precision landing through a cutting-edge <strong>Multi-Agent Reinforcement Learning (MARL)</strong> architecture. Instead of relying on a single, easily overwhelmed AI, crater-ion deploys a coordinated team of four specialized agents working toward a shared mission goal (precision landing under 50m with optimal fuel efficiency):</p>
+        
+        <ul>
+            <li><strong>Agent 1 (Perception):</strong> Maps craters with high confidence while aggressively minimizing false detections.</li>
+            <li><strong>Agent 2 (Hazard Scoring):</strong> Ranks landing hazards in real-time with minimal update latency.</li>
+            <li><strong>Agent 3 (Control/Thrust):</strong> Manages smooth, efficient trajectories and safe touchdown velocities.</li>
+            <li><strong>Agent 4 (Sensor Management):</strong> Optimizes scanning to rapidly reduce uncertainty without wasting energy on redundant sensing.</li>
+        </ul>
+
+        <img src="four_agent_marl_reward_structure.jpg" alt="Four Agent MARL Reward Structure" class="diagram">
+
+        <h2>The Safety Advantage</h2>
+        <p>Our system separates how the AI learns from how it executes. During training, a <strong>Centralized Critic</strong> evaluates all agent actions jointly to ensure perfect team coordination. At execution time, the agents operate independently but are safeguarded by a critical failsafe.</p>
+        
+        <div class="highlight">
+            <strong>Intrinsic Safety by Design:</strong> We utilize a hard safety layer known as a Control Barrier Function (CBF). Our control agent (Agent 3) is penalized for how often the CBF has to intervene—not just for crashing. This means our AI voluntarily learns to stay strictly within safe operational bounds, making the failsafe rarely needed.
+        </div>
+        
+        <h2>Contact Us</h2>
+        <p>Ready to explore the future of safe autonomous landing? Reach out to us at: <strong>hello@crater-ion.com</strong></p>
+    </div>
+</body>
+</html>
